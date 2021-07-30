@@ -1,0 +1,23 @@
+{
+    "name": "chulakov/typograf",
+    "version": "0.0.1",
+    "description": "Chulakov Typograf Component",
+    "type": "library",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Chulakov Studio",
+            "email": "web@chulakov.ru"
+        }
+    ],
+    "require": {
+        "yidas/yii2-bower-asset": "~2.0",
+        "yiisoft/yii2": "~2.0",
+        "tinymce/tinymce": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "chulakov\\typograf\\": "src/"
+        }
+    }
+}

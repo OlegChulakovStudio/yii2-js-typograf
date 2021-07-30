@@ -1,0 +1,38 @@
+{
+  "name": "typograf",
+  "version": "0.0.1",
+  "description": "typograf",
+  "main": "index.js",
+  "directories": {},
+  "scripts": {
+    "prod": "NODE_ENV=production gulp prod"
+  },
+  "author": "Chulakov",
+  "license": "MIT",
+  "dependencies": {
+    "classnames": "^2.3.1",
+    "fs": "0.0.1-security",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-jsbeautifier": "^3.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.0",
+    "gulp-pug": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-stylus": "^2.7.0",
+    "gulp-uglify": "^3.0.2",
+    "path": "^0.12.7",
+    "postcss-position": "^1.1.0",
+    "postcss-size": "^4.0.1",
+    "typograf": "^6.10.0",
+    "vue": "^2.6.14",
+    "vue-loader": "^16.3.0",
+    "webpack-stream": "^6.1.2"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-merge-json-sets": "^1.0.3"
+  }
+}
