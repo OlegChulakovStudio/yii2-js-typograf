@@ -30,6 +30,10 @@ JS-типограф в виде различных виджетов для Yii 2
 
 ![TextInput](docs/images/TextInput.png)
 
+```php
+<?= $form->field($model, "description")->widget(TypografTextWidget::class); ?>
+```
+
 **Виджет многострочного текстового поля:**
 
 ![TextArea](docs/images/TextArea.png)
