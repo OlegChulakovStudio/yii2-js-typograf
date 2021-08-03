@@ -1,13 +1,16 @@
 {
     "name": "chulakov/typograf",
-    "version": "0.0.1",
     "description": "Chulakov JS Typograf Package",
+    "license": "BSD-3-Clause",
     "type": "library",
-    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Chulakov Studio",
             "email": "web@chulakov.ru"
+        },
+        {
+            "name": "Alexey Palagichev",
+            "email": "alexey.palagichev@chulakov.ru"
         }
     ],
     "require": {
