@@ -1,4 +1,4 @@
-Component with Text Typograf on JS Widgets for Yii 2 Framework.
+JS-типограф в виде различных виджетов для Yii 2 Framework
 ==========
 
 Компонент создан для типографирования текста на основе типографа [JS v6.12.1](https://github.com/typograf/typograf)
@@ -23,26 +23,18 @@ Component with Text Typograf on JS Widgets for Yii 2 Framework.
 Описание
 ---------
 
-Компонент реализует несколько виджетов:
+Пакет содержит реализацию виджетов для разного типа полей формы, 
+в том числе визуального редактора TinyMCE.
 
-**1) Виджет обычного текстового поля:**
+**Виджет обычного текстового поля:**
 
 ![TextInput](docs/images/TextInput.png)
 
-**2) Виджет многострочного текстового поля:**
+**Виджет многострочного текстового поля:**
 
 ![TextArea](docs/images/TextArea.png)
 
-**3) Виджет текстового редактора на основе TinyMCE**
-
-![TextTinyMCE](docs/images/TextTinyMCE.png)
-
-Использование
------
-
-Пример использования для TextArea
-
-```angular2html
+```php
 <?= $form->field($model, "description")->widget(TypografTextAreaWidget::class, [
     'options' => [
         'rows' => '3'
@@ -50,8 +42,11 @@ Component with Text Typograf on JS Widgets for Yii 2 Framework.
 ]); ?>
 ```
 
-Пример использования для TinyMCE
-```angular2html
+**Виджет текстового редактора на основе TinyMCE**
+
+![TextTinyMCE](docs/images/TextTinyMCE.png)
+
+```php
 <?= $form->field($model, "title")->widget(\chulakov\typograf\widgets\TypografTinyMceWidget::class,[
                 'clientOptions' => [
                     'min_height' => 500,
@@ -76,3 +71,4 @@ Component with Text Typograf on JS Widgets for Yii 2 Framework.
                 ]
         ]); ?>
 ```
+
