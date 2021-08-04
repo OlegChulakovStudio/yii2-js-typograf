@@ -1,0 +1,25 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "usage",
+        "corejs": {
+          "version": "3.6",
+          "proposals": true
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    "import-glob",
+    "@babel/plugin-transform-classes",
+    "@babel/plugin-transform-modules-commonjs",
+    "@babel/plugin-proposal-object-rest-spread",
+    [
+      "@babel/plugin-transform-template-literals", {
+        "loose": true
+      }
+    ]
+  ]
+ }

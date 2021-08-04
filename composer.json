@@ -1,0 +1,27 @@
+{
+    "name": "chulakov/yii2-js-typograf",
+    "description": "Chulakov JS Typograf Package",
+    "license": "BSD-3-Clause",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Chulakov Studio",
+            "email": "web@chulakov.ru"
+        },
+        {
+            "name": "Alexey Palagichev",
+            "email": "alexey.palagichev@chulakov.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "yidas/yii2-bower-asset": "~2.0",
+        "yiisoft/yii2": "~2.0",
+        "tinymce/tinymce": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "chulakov\\typograf\\": "src/"
+        }
+    }
+}

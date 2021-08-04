@@ -1,0 +1,27 @@
+# phpstorm project files
+.idea
+
+# NPM packages
+node_modules
+
+# netbeans project files
+nbproject
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+.docker-sync
+
+# windows thumbnail cache
+Thumbs.db
+
+# Mac DS_Store Files
+.DS_Store
+
+# other rule
+xdebug.ini
+*.bin
+*.env
+*.map
+*.log
