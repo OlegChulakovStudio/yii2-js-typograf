@@ -32,7 +32,7 @@ class TinyMceAssets extends AssetBundle
      */
     public $js = [
         'js/typograf/typograf.all.min.js',
-        'js/typografTinyMCE.js',
+        'js/typograf.tinymce.js',
     ];
 
     /**

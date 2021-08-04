@@ -20,7 +20,7 @@ class TypografAssets extends AssetBundle
      */
     public $js = [
         'js/typograf/typograf.all.min.js',
-        'js/typografText.js'
+        'js/typograf.text.js'
     ];
 
     /**

@@ -9,12 +9,12 @@ const JS_TYPOGRAF_SOURCE = [
   './source/scripts/TypografButton.js',
   './source/scripts/input.js'
 ];
-const JS_TYPOGRAF_BUILD_PATH = 'typografText.js';
+const JS_TYPOGRAF_BUILD_PATH = 'typograf.text.js';
 
 const JS_TINY_MCE_SOURCE = [
   './source/scripts/plugins.js'
 ];
-const JS_TINY_MCE_BUILD_PATH = 'typografTinyMCE.js';
+const JS_TINY_MCE_BUILD_PATH = 'typograf.tinymce.js';
 
 const TYPOGRAF_PATH_MODULE = './node_modules/typograf/dist/*.js';
 const PLACE_TO_TRANSFER_TYPOGRAF = './assets/js/typograf';
