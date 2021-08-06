@@ -15,17 +15,17 @@ class TypografTextWidget extends InputWidget
     /**
      * @var string
      */
-    public string $text;
+    public $text;
 
     /**
      * @var string|null
      */
-    public ?string $id = null;
+    public $id = null;
 
     /**
      * @var string
      */
-    public string $template = '@vendor/chulakov/yii2-js-typograf/src/views/text';
+    public $template = '@vendor/chulakov/yii2-js-typograf/src/views/text';
 
     /**
      * @throws InvalidConfigException
@@ -42,7 +42,7 @@ class TypografTextWidget extends InputWidget
      *
      * @return string
      */
-    public function run(): string
+    public function run()
     {
         if (empty($this->options['class'])) {
             $this->options['class'] = 'form-control';

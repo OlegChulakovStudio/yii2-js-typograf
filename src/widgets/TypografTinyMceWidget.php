@@ -49,7 +49,7 @@ class TypografTinyMceWidget extends TinyMce
      *
      * @throws InvalidConfigException
      */
-    public function init(): void
+    public function init()
     {
         $this->clientOptions = array_merge($this->clientOptions, [
             'setup' => new JsExpression('function (editor) {' .
