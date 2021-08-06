@@ -26,7 +26,6 @@
     "typograf": "~6.12.1"
   },
   "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-merge-json-sets": "^1.0.3"
+    "gulp": "^4.0.2"
   }
 }

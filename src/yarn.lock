@@ -1235,13 +1235,6 @@ gulp-match@^1.1.0:
   dependencies:
     minimatch "^3.0.3"
 
-gulp-merge-json-sets@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/gulp-merge-json-sets/-/gulp-merge-json-sets-1.0.3.tgz#dfe229ec65e2262ce3887a7ed93436133acd021a"
-  integrity sha1-3+Ip7GXiJizjiHp+2TQ2EzrNAho=
-  dependencies:
-    lodash "^3.10.1"
-
 gulp-plumber@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/gulp-plumber/-/gulp-plumber-1.2.1.tgz#d38700755a300b9d372318e4ffb5ff7ced0b2c84"
@@ -1880,11 +1873,6 @@ lodash.uniq@^4.3.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
-
-lodash@^3.10.1:
-  version "3.10.1"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
-  integrity sha1-W/Rejkm6QYnhfUgnid/RW9FAt7Y=
 
 longest@^1.0.1:
   version "1.0.1"
